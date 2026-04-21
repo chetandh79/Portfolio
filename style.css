@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* Glass effect */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+}
+
+/* Glow text */
+.glow {
+    font-size: 3rem;
+    text-shadow: 0 0 20px #00d4ff;
+}
+
+/* Profile image */
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+/* Skills */
+.skill {
+    margin-bottom: 20px;
+}
+
+.bar {
+    height: 10px;
+    background: #444;
+    border-radius: 10px;
+}
+
+.fill {
+    height: 100%;
+    background: #00d4ff;
+    border-radius: 10px;
+}
+
+/* Cards */
+.card {
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
